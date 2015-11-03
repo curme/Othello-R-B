@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".GameActivity"
+    android:background="#f9f9f9">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <curmetec.othello012.Bar
+            android:id="@+id/topBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <curmetec.othello012.Scoreboard
+                android:id="@+id/redScoreboard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/red_scoreboard"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/redScoreboardStar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/redScoreboardScore"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:textColor="#f9f9f9"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+            </curmetec.othello012.Scoreboard>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@drawable/vs"></ImageView>
+            <curmetec.othello012.Scoreboard
+                android:id="@+id/blueScoreboard"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:background="@drawable/blue_scoreboard"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/blueScoreboardStar"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/blueScoreboardScore"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:textColor="#f9f9f9"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+            </curmetec.othello012.Scoreboard>
+        </curmetec.othello012.Bar>
+
+        <curmetec.othello012.Chessboard
+            android:id="@+id/chessboard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="8"
+            android:verticalSpacing="5dp"
+            android:horizontalSpacing="5dp"
+            android:background="@drawable/chessboard"
+            android:padding="10dp"
+            android:layout_marginTop="10dp">
+
+        </curmetec.othello012.Chessboard>
+
+
+        <curmetec.othello012.Bar
+            android:id="@+id/button_"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></curmetec.othello012.Bar>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <curmetec.othello012.ButtonBar
+            android:id="@+id/button_row_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <curmetec.othello012.OthelloButton
+                android:id="@+id/btn_undo_piece"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_shadow"></curmetec.othello012.OthelloButton>
+            <curmetec.othello012.OthelloButton
+                android:id="@+id/btn_give_up_restart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shadow"></curmetec.othello012.OthelloButton>
+        </curmetec.othello012.ButtonBar>
+
+        <curmetec.othello012.ButtonBar
+            android:id="@+id/button_row_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp">
+               <curmetec.othello012.OthelloButton
+                android:id="@+id/btn_hint"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_shadow"></curmetec.othello012.OthelloButton>
+            <curmetec.othello012.OthelloButton
+                android:id="@+id/btn_exit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_shadow"></curmetec.othello012.OthelloButton>
+        </curmetec.othello012.ButtonBar>
+
+    </LinearLayout>
+</RelativeLayout>

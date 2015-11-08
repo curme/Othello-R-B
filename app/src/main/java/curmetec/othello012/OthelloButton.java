@@ -3,6 +3,7 @@ package curmetec.othello012;
 import android.content.Context;
 import android.graphics.ColorMatrix;
 import android.graphics.ColorMatrixColorFilter;
+import android.media.MediaPlayer;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -15,26 +16,28 @@ import android.widget.ImageView;
  */
 public class OthelloButton extends ImageButton implements View.OnTouchListener {
 
+    private Context buttonContext;
     private int button_face;    // to state the button face, instruct the function of the button
     public boolean doubleSwitch; // to instruct if the button is muilt-functioned
 
     public OthelloButton(Context context) {
         super(context);
-        initButton();
+        initButton(context);
     }
 
     public OthelloButton(Context context, AttributeSet attrs) {
         super(context, attrs);
-        initButton();
+        initButton(context);
     }
 
     // init the button
-    private void initButton(){
+    private void initButton(Context context){
         button_face = R.drawable.button_face;
         doubleSwitch = true;
         this.setImageResource(button_face);
         this.setScaleType(ScaleType.FIT_START);
         this.setOnTouchListener(this);
+        this.buttonContext = context;
     }
 
     // to set the face of the button
@@ -53,6 +56,7 @@ public class OthelloButton extends ImageButton implements View.OnTouchListener {
             ((ImageButton) v).setImageResource(button_face);
             ((ImageButton) v).setScaleType(ScaleType.FIT_START);
         }
+        MediaPlayer.create(buttonContext, R.raw.button).start();
         return false;
     }
 }

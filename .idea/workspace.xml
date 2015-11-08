@@ -49,35 +49,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chessboard.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Chessboard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/curmetec/othello012/Chessboard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="436" column="47" selection-start-line="436" selection-start-column="47" selection-end-line="436" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.47126436">
+              <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4476#4477#0" expanded="true" />
-                <element signature="e#4542#4543#0" expanded="true" />
-                <element signature="e#4608#4609#0" expanded="true" />
-                <element signature="e#4677#4678#0" expanded="true" />
-                <element signature="e#4770#4771#0" expanded="true" />
-                <element signature="e#4809#4810#0" expanded="true" />
-                <element signature="e#4883#4884#0" expanded="true" />
-                <element signature="e#4921#4922#0" expanded="true" />
-                <element signature="e#4984#4985#0" expanded="true" />
-                <element signature="e#5015#5016#0" expanded="true" />
-                <element signature="e#5080#5081#0" expanded="true" />
-                <element signature="e#5112#5113#0" expanded="true" />
+                <element signature="e#4749#4750#0" expanded="true" />
+                <element signature="e#4815#4816#0" expanded="true" />
+                <element signature="e#4881#4882#0" expanded="true" />
+                <element signature="e#4950#4951#0" expanded="true" />
+                <element signature="e#5043#5044#0" expanded="true" />
+                <element signature="e#5082#5083#0" expanded="true" />
+                <element signature="e#5156#5157#0" expanded="true" />
+                <element signature="e#5194#5195#0" expanded="true" />
+                <element signature="e#5257#5258#0" expanded="true" />
+                <element signature="e#5288#5289#0" expanded="true" />
+                <element signature="e#5353#5354#0" expanded="true" />
+                <element signature="e#5385#5386#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_welcome.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="activity_welcome.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8614319">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.6896553">
+              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               <folding>
                 <element signature="e#262#297#0" expanded="true" />
                 <element signature="e#323#358#0" expanded="true" />
@@ -122,7 +122,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/curmetec/othello012/OthelloButton.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1572,9 +1572,9 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/curmetec/othello012/WelcomeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/curmetec/othello012/GameActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/curmetec/othello012/OthelloButton.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/curmetec/othello012/Chessboard.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml" />
       </list>
     </option>
   </component>
@@ -1827,37 +1827,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Othello-R-B" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Othello-R-B" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
+              <option name="myItemId" value="raw" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1910,9 +1880,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
       <recent name="$PROJECT_DIR$/app/src/main/res/sounds" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -2121,7 +2091,7 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.305949" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
@@ -2216,18 +2186,18 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4476#4477#0" expanded="true" />
-            <element signature="e#4542#4543#0" expanded="true" />
-            <element signature="e#4608#4609#0" expanded="true" />
-            <element signature="e#4677#4678#0" expanded="true" />
-            <element signature="e#4770#4771#0" expanded="true" />
-            <element signature="e#4809#4810#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#4921#4922#0" expanded="true" />
-            <element signature="e#4984#4985#0" expanded="true" />
-            <element signature="e#5015#5016#0" expanded="true" />
-            <element signature="e#5080#5081#0" expanded="true" />
-            <element signature="e#5112#5113#0" expanded="true" />
+            <element signature="e#4749#4750#0" expanded="true" />
+            <element signature="e#4815#4816#0" expanded="true" />
+            <element signature="e#4881#4882#0" expanded="true" />
+            <element signature="e#4950#4951#0" expanded="true" />
+            <element signature="e#5043#5044#0" expanded="true" />
+            <element signature="e#5082#5083#0" expanded="true" />
+            <element signature="e#5156#5157#0" expanded="true" />
+            <element signature="e#5194#5195#0" expanded="true" />
+            <element signature="e#5257#5258#0" expanded="true" />
+            <element signature="e#5288#5289#0" expanded="true" />
+            <element signature="e#5353#5354#0" expanded="true" />
+            <element signature="e#5385#5386#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2272,14 +2242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/curmetec/othello012/OthelloButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -2290,28 +2252,6 @@
         <state vertical-scroll-proportion="-8.555555">
           <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/curmetec/othello012/Chessboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="436" column="47" selection-start-line="436" selection-start-column="47" selection-end-line="436" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4476#4477#0" expanded="true" />
-            <element signature="e#4542#4543#0" expanded="true" />
-            <element signature="e#4608#4609#0" expanded="true" />
-            <element signature="e#4677#4678#0" expanded="true" />
-            <element signature="e#4770#4771#0" expanded="true" />
-            <element signature="e#4809#4810#0" expanded="true" />
-            <element signature="e#4883#4884#0" expanded="true" />
-            <element signature="e#4921#4922#0" expanded="true" />
-            <element signature="e#4984#4985#0" expanded="true" />
-            <element signature="e#5015#5016#0" expanded="true" />
-            <element signature="e#5080#5081#0" expanded="true" />
-            <element signature="e#5112#5113#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2338,8 +2278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_welcome.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8614319">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="-7.6896553">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
           <folding>
             <element signature="e#262#297#0" expanded="true" />
             <element signature="e#323#358#0" expanded="true" />
@@ -2350,6 +2290,36 @@
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/curmetec/othello012/OthelloButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/curmetec/othello012/Chessboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47126436">
+          <caret line="59" column="31" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4749#4750#0" expanded="true" />
+            <element signature="e#4815#4816#0" expanded="true" />
+            <element signature="e#4881#4882#0" expanded="true" />
+            <element signature="e#4950#4951#0" expanded="true" />
+            <element signature="e#5043#5044#0" expanded="true" />
+            <element signature="e#5082#5083#0" expanded="true" />
+            <element signature="e#5156#5157#0" expanded="true" />
+            <element signature="e#5194#5195#0" expanded="true" />
+            <element signature="e#5257#5258#0" expanded="true" />
+            <element signature="e#5288#5289#0" expanded="true" />
+            <element signature="e#5353#5354#0" expanded="true" />
+            <element signature="e#5385#5386#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

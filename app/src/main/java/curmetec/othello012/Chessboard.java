@@ -1,6 +1,7 @@
 package curmetec.othello012;
 
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.util.AttributeSet;
 import android.widget.GridView;
 
@@ -18,6 +19,7 @@ import android.widget.GridView;
  */
 public class Chessboard extends GridView {
 
+    private Context chessboardContext;
     private int[][] chessPosition;          // to stash the chess positions of each turn
     private int[][] canPtPosition;          // to stash the positions can put piece of each turn
     private int[]   userRound;              // to stash the user color of each turn
@@ -27,12 +29,12 @@ public class Chessboard extends GridView {
 
     public Chessboard(Context context) {
         super(context);
-        initGame();
+        initGame(context);
     }
 
     public Chessboard(Context context, AttributeSet attrs) {
         super(context, attrs);
-        initGame();
+        initGame(context);
     }
 
     @Override
@@ -41,13 +43,15 @@ public class Chessboard extends GridView {
     }
 
     // init game
-    private void initGame(){
+    private void initGame(Context context){
+        chessboardContext = context;
         initChessPosition();
         initCanPtPosition();
         initUserRound();
         initPieceCount();
         hintSwitch = true;
         gameFinished=false;
+        MediaPlayer.create(chessboardContext, R.raw.start).start();
     }
 
     // finish game
@@ -58,6 +62,7 @@ public class Chessboard extends GridView {
         else if(redCount<blueCount) refreshChessboard(63);
         else                        refreshChessboard(61);
         gameFinished = true;
+        MediaPlayer.create(chessboardContext, R.raw.win).start();
     }
 
     // init very beginning chessboard
@@ -378,7 +383,8 @@ public class Chessboard extends GridView {
         else{
             judgeCanPtPosition(turn, userColor);
             for(int i:canPtPosition[turn+1]) sum += i;
-            if(sum > 0){userRound[turn+1] = userColor;refreshChessboard(turn);}
+            if(sum > 0){userRound[turn+1] = userColor;refreshChessboard(turn);
+                        MediaPlayer.create(chessboardContext, R.raw.pass).start();}
             else finishGame(turn);
         }
     }
@@ -391,6 +397,7 @@ public class Chessboard extends GridView {
     public boolean goChess(int turn, int position){
         // judge user color ( next chess piece color: r|b )
         int userColor = userRound[turn];
+        MediaPlayer.create(chessboardContext, R.raw.piece_sound).start();
 
         // load chessboard of last turn into the chessboard of this turn
         chessPosition[turn] = new int[64];
@@ -451,7 +458,7 @@ public class Chessboard extends GridView {
 
     // restart the whole game
     public void restart(){
-        initGame();
+        initGame(chessboardContext);
         refreshChessboard(0);
     }
 }

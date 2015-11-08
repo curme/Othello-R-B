@@ -31,26 +31,20 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"/>
         </LinearLayout>
-        <LinearLayout
+        <curmetec.othello012.Bar
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:layout_height="30dp"
             android:orientation="horizontal"
-            android:layout_marginTop="30dp">
-            <android.widget.Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"/>
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:scaleType="fitStart"
-                android:layout_weight="4"
-                android:background="@drawable/welcome_name"/>
-            <android.widget.Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"/>
-        </LinearLayout>
+            android:layout_marginTop="30dp"
+            android:background="@drawable/welcome_name">
+        </curmetec.othello012.Bar>
+        <curmetec.othello012.Bar
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/author">
+        </curmetec.othello012.Bar>
     </LinearLayout>
 
     <LinearLayout

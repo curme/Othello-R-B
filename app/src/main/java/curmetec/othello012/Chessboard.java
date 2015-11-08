@@ -397,7 +397,6 @@ public class Chessboard extends GridView {
     public boolean goChess(int turn, int position){
         // judge user color ( next chess piece color: r|b )
         int userColor = userRound[turn];
-        MediaPlayer.create(chessboardContext, R.raw.piece_sound).start();
 
         // load chessboard of last turn into the chessboard of this turn
         chessPosition[turn] = new int[64];
@@ -405,7 +404,9 @@ public class Chessboard extends GridView {
 
         // judge if could put chess piece two situations cannot put chess :
         // 1. box has been occupied; 2. can not eat counterpart's chess piece
-        if(chessPosition[turn][position]!=0 || canPtPosition[turn][position]==0) return false;
+        if(chessPosition[turn][position]!=0 || canPtPosition[turn][position]==0) {
+            MediaPlayer.create(chessboardContext, R.raw.piece_cannot).start();return false;}
+            MediaPlayer.create(chessboardContext, R.raw.piece_sound ).start();
 
         // re-colored rival chess pieces
         recolorRivalPieces(turn, position, userColor);
@@ -452,8 +453,9 @@ public class Chessboard extends GridView {
         int userColor = userRound[turn];
         refreshChessboard(chessPosition.length-userColor);
         //turn = chessPosition.length-userColor;
-        for(int i = 0; i < 64; i+=8){System.out.println(chessPosition[turn][i] + " " + chessPosition[turn][i + 1] + " " + chessPosition[turn][i + 2] + " " + chessPosition[turn][i + 3] + " "+ chessPosition[turn][i + 4] + " " + chessPosition[turn][i + 5] + " " + chessPosition[turn][i + 6] + " " + chessPosition[turn][i+7] + " ");}
+        //for(int i = 0; i < 64; i+=8){System.out.println(chessPosition[turn][i] + " " + chessPosition[turn][i + 1] + " " + chessPosition[turn][i + 2] + " " + chessPosition[turn][i + 3] + " "+ chessPosition[turn][i + 4] + " " + chessPosition[turn][i + 5] + " " + chessPosition[turn][i + 6] + " " + chessPosition[turn][i+7] + " ");}
         gameFinished = true;
+        MediaPlayer.create(chessboardContext, R.raw.win).start();
     }
 
     // restart the whole game

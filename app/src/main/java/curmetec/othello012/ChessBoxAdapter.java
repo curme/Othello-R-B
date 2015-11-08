@@ -16,6 +16,18 @@ public class ChessBoxAdapter extends BaseAdapter {
     private Context mContext;
     private ArrayList<ChessBox> chessBoxList;
 
+    // the init chessboard
+    private int[] chessOrder = new int[]{
+            0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,
+            0,0,0,3,0,0,0,0,
+            0,0,3,2,1,0,0,0,
+            0,0,0,1,2,3,0,0,
+            0,0,0,0,3,0,0,0,
+            0,0,0,0,0,0,0,0,
+            0,0,0,0,0,0,0,0,
+    };
+
     public ChessBoxAdapter(Context context){
         mContext = context;
         chessBoxList = new ArrayList<ChessBox>();
@@ -51,16 +63,4 @@ public class ChessBoxAdapter extends BaseAdapter {
         //System.out.println(chessBoxList.size());
         return chessBox;
     }
-
-    // the init chessboard
-    private int[] chessOrder = new int[]{
-            0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,
-            0,0,0,3,0,0,0,0,
-            0,0,3,2,1,0,0,0,
-            0,0,0,1,2,3,0,0,
-            0,0,0,0,3,0,0,0,
-            0,0,0,0,0,0,0,0,
-            0,0,0,0,0,0,0,0,
-    };
 }

@@ -67,8 +67,6 @@ public class GameActivity extends AppCompatActivity {
                     setTurn(turn - 1);
                     redScoreboard.setScoreboard(chessboard.getUserRound(turn + 1), chessboard.getRedPieceCount());
                     blueScoreboard.setScoreboard(chessboard.getUserRound(turn + 1), chessboard.getBluePieceCount());
-                    if(chessboard.gameFinished) System.out.println("aa");
-                    else System.out.println("bb");
                 }
             }
         });
@@ -88,7 +86,6 @@ public class GameActivity extends AppCompatActivity {
                 // Perform action on click
                 if (btnGiveUpRstt.doubleSwitch) {
                     // give up
-                    System.out.println("@@@@@@@########@@@@@@@");
                     chessboard.giveUp(turn+1);
                     btnGiveUpRstt.setButtonface(R.drawable.button_face_restart);
                     btnGiveUpRstt.doubleSwitch = false;

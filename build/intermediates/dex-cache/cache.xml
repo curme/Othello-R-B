@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/Users/huizhan/Curme/Project/android/Othello-R-B/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/huizhan/Curme/Project/android/Othello-R-B/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-b61a07bef393274a4a32cb8081b2cef2daddf1b0.jar" />
-    </item>
-    <item
-        jar="/Users/huizhan/Curme/Project/android/Othello-R-B/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/Users/huizhan/Desktop/semester 1/smart phone apps development/assignment.1/all/project/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/huizhan/Curme/Project/android/Othello-R-B/app/build/intermediates/pre-dexed/release/classes-a6e8eb088b92528dc3771152422178dc344e8f46.jar" />
+        <dex dex="/Users/huizhan/Desktop/semester 1/smart phone apps development/assignment.1/all/project/app/build/intermediates/pre-dexed/debug/classes-141490f5654296acaf8b37844a18c57e4c561f64.jar" />
+    </item>
+    <item
+        jar="/Users/huizhan/Desktop/semester 1/smart phone apps development/assignment.1/all/project/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/huizhan/Desktop/semester 1/smart phone apps development/assignment.1/all/project/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-8ce8947002520636921ba78214378b51d153ac90.jar" />
+    </item>
+    <item
+        jar="/Users/huizhan/Desktop/semester 1/smart phone apps development/assignment.1/all/project/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/huizhan/Desktop/semester 1/smart phone apps development/assignment.1/all/project/app/build/intermediates/pre-dexed/debug/classes-7fb7055d53a928745757434e4154f26d07463406.jar" />
     </item>
     <item
         jar="/Users/huizhan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/huizhan/Curme/Project/android/Othello-R-B/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1-3827199ef18e8bc11e9cefef27f9643abeba651b.jar" />
-    </item>
-    <item
-        jar="/Users/huizhan/Curme/Project/android/Othello-R-B/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/huizhan/Curme/Project/android/Othello-R-B/app/build/intermediates/pre-dexed/release/classes-d938e32830071f1f1513ec564cd5b22d5fcde105.jar" />
+        <dex dex="/Users/huizhan/Desktop/semester 1/smart phone apps development/assignment.1/all/project/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-3827199ef18e8bc11e9cefef27f9643abeba651b.jar" />
     </item>
 
 </items>
